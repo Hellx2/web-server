@@ -1,0 +1,42 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #1a1a30;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);*/
+}
+
+h1 {
+    font-size: 100px;
+}
+
+p {
+    font-size: 2em;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -400px;
+    margin-left: -400px;
+    align-self: center;
+    justify-self: center;
+    overflow:hidden;
+    height: 800px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    /*grid-row: 4;
+    grid-column: 2;*/
+}
